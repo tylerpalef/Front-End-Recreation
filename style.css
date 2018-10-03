@@ -1,0 +1,68 @@
+/* Centering everything in the document */
+html{
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.nav>ul,a{
+  display: inline-flex;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+/* Removing styling from the lists */
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Removing underline from the anchorpoints */
+a{
+  text-decoration: none;
+}
+
+/* Styling the new span */
+.new{
+  background-color: red;
+  color: white;
+  padding: 3px;
+}
+
+.columns{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+}
+
+.bottom{
+  display: grid;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-template-columns: auto auto;
+}
+
+.bottom_nav > ul, a{
+  display: inline-flex;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: black;
+}
+
+.authors > a{
+  color: blue;
+}
+
+.bottom_blurb > p{
+  background-color: lightgrey;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+
+.copyright{
+  text-align: left;
+}
